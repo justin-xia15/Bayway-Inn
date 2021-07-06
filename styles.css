@@ -1,14 +1,32 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 h1 {
   color: #fff;
   font-family: 'Pacifico';
+  font-size: 2rem;
   position: absolute;
-  top: 100px;
+  top: 150px;
   left: 30px;
+}
+
+h3 {
+  font-family: 'Lato';
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: 'Lato';
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: 'Lato';
+  padding: 0 20px 10px 20px;
+  text-align: left;
 }
 
 li {
@@ -23,6 +41,22 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+/* Title section */
+
+.title-image {
+  height: 400px;
+  width: 100%;
+}
+
+.navbar {
+  background-color: transparent;
+  height: 50px;
+  line-height: 3;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 /* Hamburger menu */
@@ -45,7 +79,6 @@ ul {
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
@@ -56,21 +89,35 @@ ul {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 
 
-.title-image {
-  width: 100%;
+/* Rooms section */
+
+.room-image {
+  width: 90%
 }
 
-.navbar {
-  background-color: transparent;
-  height: 50px;
-  line-height: 3;
-  position: absolute;
-  top: 0;
-  width: 100%;
+.dining-room-image {
+  width: 90%;
+}
+
+
+/* Amenities section */
+.breakfast-image {
+  width: 90%;
+}
+
+.internet-image {
+  width: 90%;
+}
+
+.room-service-image {
+  width: 90%;
+}
+
+.laundry-image {
+  width: 90%;
 }
