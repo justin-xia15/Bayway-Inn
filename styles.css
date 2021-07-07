@@ -18,11 +18,13 @@ h2 {
 }
 
 h3 {
+  color: #284E78;
   font-family: 'Lato';
   font-size: 1.5rem;
 }
 
 h4 {
+  color: #284E78;
   font-family: 'Lato';
   font-size: 1.2rem;
 }
@@ -52,6 +54,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+hr {
+  color: blue;
 }
 
 /* Title section */
@@ -106,18 +112,13 @@ ul {
 .menu {
   background-color: #fff;
   border-radius: 5px;
-  height: 350px;
-  width: 330px;
+  height: 305px;
+  width: 200px;
   line-height: 2.5;
   position: absolute;
   top: 1px;
   display: none;
 }
-
-/* .slide {
-  position: absolute;
-} */
-
 
 
 /* Rooms section */
@@ -128,6 +129,12 @@ ul {
 
 .dining-room-image {
   width: 90%;
+}
+
+/* Dining section */
+
+#dining {
+  background-color: #E8F6EF;
 }
 
 
@@ -146,4 +153,45 @@ ul {
 
 .laundry-image {
   width: 90%;
+}
+
+/* Contact section */
+
+.btn {
+  background-color: transparent;
+  font-family: 'Lato';
+  height: 50px;
+  width: 120px;
+}
+
+.btn:hover {
+  background-color: #284E78;
+  color: #fff;
+}
+
+#contact {
+  background-color: #E8F6EF;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.fab {
+  font-size: 2rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-instagram:hover {
+  color: #458eff;
+}
+
+.fa-facebook-square:hover {
+  color: #4267B2;
 }
