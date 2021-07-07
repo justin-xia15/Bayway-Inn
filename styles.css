@@ -195,3 +195,56 @@ hr {
 .fa-facebook-square:hover {
   color: #4267B2;
 }
+
+/* Tablet screen size */
+
+@media only screen and (min-width: 768px) {
+
+.title-image {
+  height: 700px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  top: 300px;
+  left: 50px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.5rem;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.menu {
+  height: 450px;
+  width: 250px;
+  font-size: 2rem;
+}
+
+.room-image {
+  height: 700px;
+}
+
+.dining-room-image {
+  height: 600px;
+}
+
+.btn {
+  font-size: 1.8rem;
+  height: 75px;
+  width: 180px;
+  line-height: 2.5;
+}
+
+
+}
+
