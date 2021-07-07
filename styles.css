@@ -13,6 +13,10 @@ h1 {
   left: 30px;
 }
 
+h2 {
+  font-family: 'Lato';
+}
+
 h3 {
   font-family: 'Lato';
   font-size: 1.5rem;
@@ -21,6 +25,13 @@ h3 {
 h4 {
   font-family: 'Lato';
   font-size: 1.2rem;
+}
+
+a {
+  color: #284E78;
+  font-family: 'Lato';
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 p {
@@ -91,6 +102,21 @@ ul {
 .change .bar3 {
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+.menu {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 350px;
+  width: 330px;
+  line-height: 2.5;
+  position: absolute;
+  top: 1px;
+  display: none;
+}
+
+/* .slide {
+  position: absolute;
+} */
 
 
 
