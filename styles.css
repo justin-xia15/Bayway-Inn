@@ -13,25 +13,12 @@ h1 {
   left: 30px;
 }
 
-h2 {
-  font-family: 'Lato';
-}
-
-h3 {
-  color: #284E78;
-  font-family: 'Lato';
-  font-size: 1.5rem;
-}
-
+/* HTML elements */
 h4 {
-  color: #284E78;
-  font-family: 'Lato';
   font-size: 1.2rem;
 }
 
 a {
-  color: #284E78;
-  font-family: 'Lato';
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -60,12 +47,19 @@ hr {
   color: blue;
 }
 
-/* Title section */
-.title-image {
-  height: 400px;
-  width: 100%;
+/* Heading and body text */
+.section-heading {
+  color: #284E78;
+  font-family: 'Lato';
+  font-size: 1.5rem;
 }
 
+.main-text {
+  color: #284E78;
+  font-family: 'Lato';
+}
+
+/* Title section */
 .navbar {
   background-color: transparent;
   height: 50px;
@@ -118,8 +112,15 @@ hr {
   width: 120px;
 }
 
-.title-pressed {
-  box-shadow: 0 0 20px #DA0037;
+.menu {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 305px;
+  width: 200px;
+  line-height: 2.5;
+  position: absolute;
+  top: 1px;
+  display: none;
 }
 
 /* Hamburger menu */
@@ -139,30 +140,14 @@ hr {
   position: relative;
 }
 
-/* Rotate first bar */
-.change .bar1 {
-  transform: rotate(-45deg) translate(-9px, 6px);
+/* Images */
+.title-image {
+  height: 400px;
+  width: 100%;
 }
 
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.menu {
-  background-color: #fff;
-  border-radius: 5px;
-  height: 305px;
-  width: 200px;
-  line-height: 2.5;
-  position: absolute;
-  top: 1px;
-  display: none;
+.content-img {
+  width: 90%;
 }
 
 /* Rooms section */
@@ -175,7 +160,8 @@ hr {
 }
 
 /* Dining section */
-#dining {
+
+.colored-section {
   background-color: #E8F6EF;
 }
 
@@ -213,19 +199,11 @@ hr {
   line-height: 3;
 }
 
-/* Hover effect on desktop */
-/* .btn:hover {
-  background-color: #284E78;
-  color: #fff;
-} */
-#contact {
-  background-color: #E8F6EF;
-}
-
 .contact-info {
   text-align: center;
 }
 
+/* Social media icons */
 .fab {
   font-size: 2rem;
   padding-left: 30px;
@@ -245,24 +223,35 @@ hr {
   color: #4267B2;
 }
 
+/* Button animations */
+
+/* Hamburger button animation */
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
 .pressed {
   box-shadow: 0 0 20px #185ADB;
 }
 
+.title-pressed {
+  box-shadow: 0 0 20px #DA0037;
+}
+
 /* Tablet screen size */
 @media only screen and (min-width: 768px) {
-  .title-image {
-    height: 700px;
-  }
-
   h1 {
     font-size: 3.5rem;
     top: 300px;
     left: 50px;
-  }
-
-  h3 {
-    font-size: 2.5rem;
   }
 
   h4 {
@@ -275,17 +264,25 @@ hr {
     padding-right: 40px;
   }
 
+  .title {
+    height: 700px;
+  }
+
+  .title-image {
+    height: 800px;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+  }
+
   .menu {
     height: 450px;
     width: 250px;
     font-size: 2rem;
   }
 
-  .room-image {
-    height: 700px;
-  }
-
-  .dining-room-image {
+  .content-img {
     height: 600px;
   }
 
@@ -299,7 +296,7 @@ hr {
 
 /* Desktop and large screens */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1366px) {
   body {
     overflow-x: hidden;
   }
@@ -326,43 +323,25 @@ hr {
     visibility: visible;
   }
 
-  .room-image {
+  .room-img {
     margin-top: 5%;
     height: 30%;
     width: 30%;
     position: relative;
-    /* margin-right: 65%; */
   }
 
-  .dining-room-image {
+  .dining-room-img {
     margin-top: 5%;
     height: 40%;
     width: 40%;
     position: relative;
-    /* margin-left: 65%; */
 
   }
 
-  .breakfast-image {
+  .content-img {
     height: 40%;
     width: 40%;
 
-  }
-
-  .internet-image {
-    height: 30%;
-    width: 30%;
-  }
-
-  .room-service-image {
-    height: 30%;
-    width: 30%;
-  }
-
-  .laundry-image {
-    height: 30%;
-    width: 30%;
-    padding-bottom: 50px;
   }
 
   .room-info {
@@ -382,7 +361,7 @@ hr {
   .amenities-info {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
 
 }
