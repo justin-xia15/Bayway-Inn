@@ -297,9 +297,21 @@ hr {
   }
 }
 
+/* Desktop and large screens */
+
 @media only screen and (min-width: 1000px) {
   body {
     overflow-x: hidden;
+  }
+
+  #rooms {
+    padding-bottom: 100px;
+  }
+
+  #dining {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 100px;
   }
 
   .title-image {
@@ -315,63 +327,62 @@ hr {
   }
 
   .room-image {
+    margin-top: 5%;
     height: 30%;
     width: 30%;
     position: relative;
-    margin-right: 65%;
+    /* margin-right: 65%; */
   }
 
   .dining-room-image {
-    height: 30%;
-    width: 30%;
+    margin-top: 5%;
+    height: 40%;
+    width: 40%;
     position: relative;
-    margin-left: 65%;
+    /* margin-left: 65%; */
 
   }
 
   .breakfast-image {
     height: 40%;
     width: 40%;
-    margin-right: 65%;
 
   }
 
   .internet-image {
     height: 30%;
     width: 30%;
-    position: relative;
-    margin-left: 65%;
   }
 
   .room-service-image {
     height: 30%;
     width: 30%;
-    position: relative;
-    margin-right: 65%;
   }
 
   .laundry-image {
     height: 30%;
     width: 30%;
-    position: relative;
-    margin-left: 65%;
+    padding-bottom: 50px;
   }
 
   .room-info {
+    margin-top: 30px;
+    margin-left: 5px;
     float: right;
     width: 50%;
   }
 
   .dining-info {
+    margin-top: 35px;
+    margin-right: 5px;
     float: left;
     width: 50%;
   }
 
   .amenities-info {
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
   }
 
-
 }
-
