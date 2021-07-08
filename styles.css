@@ -76,6 +76,50 @@ hr {
   width: 100%;
 }
 
+/* Desktop navbar and button */
+
+.nav-wrapper {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  line-height: 2;
+  visibility: hidden;
+}
+
+.desktop-nav {
+  position: relative;
+  margin-left: 40%;
+  margin-top: 5px;
+}
+
+.nav-item {
+  color: #fff;
+  font-family: 'Lato';
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title-btn {
+  background-color: #DA0037;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 1rem;
+  position: absolute;
+  top: 20%;
+  right: 2%;
+  height: 40px;
+  width: 120px;
+}
+
+.title-pressed {
+  box-shadow: 0 0 20px #DA0037;
+}
+
 /* Hamburger menu */
 
 .hamburger-btn {
@@ -158,16 +202,26 @@ hr {
 /* Contact section */
 
 .btn {
-  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  background-color: #284e78;
+  color: #fff;
+  border-style: solid;
+  border-radius: 5px;
   font-family: 'Lato';
+  font-weight: bold;
   height: 50px;
   width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 3;
 }
 
-.btn:hover {
+/* Hover effect on desktop */
+/* .btn:hover {
   background-color: #284E78;
   color: #fff;
-}
+} */
 
 #contact {
   background-color: #E8F6EF;
@@ -194,6 +248,10 @@ hr {
 
 .fa-facebook-square:hover {
   color: #4267B2;
+}
+
+.pressed {
+  box-shadow: 0 0 20px #185ADB;
 }
 
 /* Tablet screen size */
@@ -248,3 +306,21 @@ p {
 
 }
 
+@media only screen and (min-width: 1000px) {
+.title-image {
+  height: 760px;
+}
+
+.hamburger-btn {
+  visibility: hidden;
+}
+
+.nav-wrapper {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  line-height: 2;
+  visibility: visible;
+}
