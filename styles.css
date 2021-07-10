@@ -1,3 +1,4 @@
+/* HTML elements */
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +14,6 @@ h1 {
   left: 30px;
 }
 
-/* HTML elements */
 h4 {
   font-size: 1.2rem;
 }
@@ -59,7 +59,9 @@ hr {
   font-family: 'Lato';
 }
 
-/* Title section */
+
+
+/* Desktop navbar and button */
 .navbar {
   background-color: transparent;
   height: 50px;
@@ -69,7 +71,6 @@ hr {
   width: 100%;
 }
 
-/* Desktop navbar and button */
 .nav-wrapper {
   height: 50px;
   width: 100%;
@@ -150,7 +151,6 @@ hr {
   width: 90%;
 }
 
-/* Rooms section */
 .room-image {
   width: 90%
 }
@@ -159,30 +159,12 @@ hr {
   width: 90%;
 }
 
-/* Dining section */
-
+/* Sections */
 .colored-section {
   background-color: #E8F6EF;
 }
 
-/* Amenities section */
-.breakfast-image {
-  width: 90%;
-}
-
-.internet-image {
-  width: 90%;
-}
-
-.room-service-image {
-  width: 90%;
-}
-
-.laundry-image {
-  width: 90%;
-}
-
-/* Contact section */
+/* Contact */
 .btn {
   display: flex;
   justify-content: center;
@@ -223,8 +205,6 @@ hr {
   color: #4267B2;
 }
 
-/* Button animations */
-
 /* Hamburger button animation */
 .change .bar1 {
   transform: rotate(-45deg) translate(-9px, 6px);
@@ -238,6 +218,7 @@ hr {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+/* Button animations */
 .pressed {
   box-shadow: 0 0 20px #185ADB;
 }
