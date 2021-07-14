@@ -103,6 +103,7 @@ hr {
   background-color: #DA0037;
   border-radius: 5px;
   color: #fff;
+  cursor: pointer;
   font-family: 'Lato';
   font-weight: bold;
   font-size: 1rem;
@@ -166,10 +167,9 @@ hr {
 
 /* Contact */
 .btn {
-  display: flex;
-  justify-content: center;
   background-color: #284e78;
   color: #fff;
+  cursor: pointer;
   border-style: solid;
   border-radius: 5px;
   font-family: 'Lato';
